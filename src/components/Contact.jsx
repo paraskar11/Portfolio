@@ -29,16 +29,16 @@ function Contact() {
     <>
       <div
         name="Contact"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 bg-[#220E27]"
       >
-        <h1 className="text-3xl font-bold mb-4">Contact me</h1>
-        <span>Please fill out the form below to contact me</span>
-        <div className=" flex flex-col items-center justify-center mt-5">
+        <div><h1 className="text-3xl font-bold mb-4 text-blue-400 border-2 border-blue-500 rounded-lg p-2 inline-block shadow-lg shadow-blue-500">Contact me</h1></div>
+        <span className="text-white">Please fill out the form below to contact me</span>
+        <div className=" flex flex-col items-center justify-center mt-5  ">
           <form
             onSubmit={handleSubmit(onSubmit)}
             // action="https://getform.io/f/raeqjora"
             // method="POST"
-            className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
+            className="bg-slate-200 w-96 px-8 py-6  border-2 border-blue-500 rounded-xl shadow-lg shadow-blue-500 "
           >
             <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
             <div className="flex flex-col mb-4">

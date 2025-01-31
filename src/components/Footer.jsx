@@ -1,28 +1,27 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa6";
+
+import { IoLogoGithub } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaSquareXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
     <>
-      <hr />
-      <footer className="py-12">
+      {/* <hr/> */}
+      <footer className="py-12 bg-[#342638] text-white">
         <div className="max-w-screen-2xl container mx-auto px-4 md:px-20">
           <div className=" flex flex-col items-center justify-center">
             <div className="flex space-x-4">
-              <FaFacebook size={24} />
-              <FaTwitter size={24} />
-              <FaInstagram size={24} />
-              <FaLinkedinIn size={24} />
+              <IoLogoGithub size={24} />
+              <FaLinkedin size={24} />
+              <SiLeetcode size={24} />
+              <FaSquareXTwitter size={24} />
             </div>
-            <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
+            <div className="mt-8 border-t border-white-700 pt-8 flex flex-col items-center">
               <p className="text-sm">
-                &copy; 2024 Your Company. All rights reserved.
+                &copy; 2024 Made by Abhishek. All rights reserved.
               </p>
-              <p className="text-sm">Supportive Partner ❤️ Ankush</p>
+              <p className="text-sm">JSPM RSCOE</p>
             </div>
           </div>
         </div>
